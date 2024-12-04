@@ -1,6 +1,6 @@
-# Django Development Environment
+# Report Management System Backend (Django)
 
-A development environment for Django projects. This project includes basic Django configurations, dependencies, database setup, and testing preparations.
+This is the backend of the Report Management System developed using Django. The application handles the management, creation, and retrieval of reports for users. It provides an API that allows for report generation, viewing, and management.
 
 ---
 
@@ -8,6 +8,8 @@ A development environment for Django projects. This project includes basic Djang
 
 ```plaintext
 Django Development Environment
+├── .devcontainer
+│   └── devcontainer.json
 ├── README.md
 ├── api
 │   ├── __init__.py
@@ -36,8 +38,7 @@ Django Development Environment
 
 ## 🛠️ Installation Instructions
 1. Clone the repository
-2. If the `api` files are not needed, you can delete them.
-3. Start the development server
+2. Start the development server
 ```bash
 python manage.py runserver --settings config.settings.development
 ```
